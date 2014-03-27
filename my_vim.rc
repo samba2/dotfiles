@@ -1,0 +1,14 @@
+" 'desert' for dark background, 'default' for bright
+colorscheme desert
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+syntax on
+set ruler
+set showmode
+"enable vim enhanced features, disavles vi compatibility
+set nocompatible
+
+" for python editing
+filetype indent plugin on

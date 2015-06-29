@@ -7,8 +7,17 @@ set expandtab
 syntax on
 set ruler
 set showmode
-"enable vim enhanced features, disavles vi compatibility
+"enable vim enhanced features, disables vi compatibility
 set nocompatible
 
 " for python editing
 filetype indent plugin on
+
+" --- browsing ---
+" Hit enter in the file browser to open the selected
+" file with :vsplit to the right of the browser.
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+
+" Change directory to the current buffer when opening files.
+set autochdir
